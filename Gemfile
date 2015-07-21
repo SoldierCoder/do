@@ -8,6 +8,10 @@ gem 'rails', '4.2.1'
 #  gem 'pg'
 #end
 gem 'devise', '3.5.1'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-yammer'
 gem 'therubyracer'
 gem 'sqlite3'
 group :assets do

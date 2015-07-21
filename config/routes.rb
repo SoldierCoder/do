@@ -1,18 +1,7 @@
 Rails.application.routes.draw do
-  get 'teammember/index'
+  #root 'teammember/index'
 
-  get 'teammember/create'
-
-  get 'teammember/new'
-
-  get 'teammember/show'
-
-  get 'teammember/update'
-
-  get 'teammember/edit'
-
-  get 'teammember/destroy'
-
+ 
   devise_for :teammembers
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
