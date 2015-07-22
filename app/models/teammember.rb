@@ -3,5 +3,5 @@ class Teammember < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable
-  has_many: timeoffs
+  has_many :timeoffs
 end
